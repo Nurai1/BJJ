@@ -1,0 +1,78 @@
+@media screen and (max-width:1130px) {
+	.menu__item a {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width:1030px) {
+	form {
+		width: 30%;
+	}
+	textarea, input[type="text"] {
+		width: 40vw;
+	}
+	.news__text {
+		height: 125px;
+		overflow: hidden;
+	}
+	.news__show-anchor {
+		display: inline;
+	}
+	header {
+		display: none;
+	}
+	.hamburger {
+		display: block;
+	}
+}
+
+@media screen and (max-width:580px) {
+	.contacts, .feedback {
+		float: none;
+		margin-left: 25%;
+	}
+	.documents__poster img{
+		width:100%;
+		margin:0;
+	}
+
+	.belts__table{
+			font-size: 5px;
+	}
+}
+
+@media screen and (max-width:380px) {
+	.contacts, .feedback {
+		margin-left: 18%;
+	}
+	.belts__table{
+			font-size: 1.5px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+	/* news page  */
+
+	.news-wrapper {
+		width: 80vw;
+		border-width: 8px;
+	}
+
+	.news {
+		width: 90%;
+	}
+
+	.news__title{
+		font-size: 24px;
+	}
+
+	/* belts page  */
+
+	.belts__table{
+			width: 100%;
+			font-size: 10px;
+	}
+}

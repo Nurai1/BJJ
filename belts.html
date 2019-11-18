@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta content="Nur" name="author">
+	<meta content="новости, bjj новости" name="keywords">
+	<meta content="Новости BJJ России" name="description">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="stuffs/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<title>Федерация BJJ России</title>
+	<link href="style/style.css" rel="stylesheet">
+	<link rel="style/stylesheet" href="forBrowsers.css">
+	<link href="style/media.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<!--[if IE 9]>
+		<link href="style/style-for-old-ie.css" rel="stylesheet">
+	<![endif]-->
+	<!--[if IE 8]>
+	<link href="style/style-for-old-ie.css" rel="stylesheet">
+	<script
+		src="https://code.jquery.com/jquery-1.9.1.min.js"
+		integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ="
+		crossorigin="anonymous">
+	 </script>
+	 <script src="script/html5shiv/html5shiv.js"></script>
+	<![endif]-->
+	<!--[if lte IE 7]>
+   <div style="background-color: #3686BB; color: #fff; width: 100%; height: 100%; margin: 0; padding: 50px; box-sizing: border-box; position: fixed; top: 0; bottom: 0;left: 0; right: 0; font-size: 26px;">
+      <p style="width: 80%; margin: auto;text-align: center;"> Приносим свои извинения. Данный сайт не может корректно работать в браузере "Internet Explorer" ниже 10(-й) версии.
+           Пожалуйста, используйте другой более современный браузер или обновите ваш "Internet Explorer" до 10-11(-й) версии.</p>
+   </div>
+   <script>
+        if(window.stop !== undefined) {
+          window.stop();
+        } else if (document.execCommand !== undefined) { // для IE
+          document.execCommand("Stop", false);
+        }
+    </script>
+	<![endif]-->
+</head>
+<body>
+	<header class="header">
+		<ul class="menu">
+			<li class="menu__item">
+				<a class="menu__link" href="index.html">Главная</a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="news.html">Новости</a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="index.html#infoDoc">Информация</a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="index.html#calendar">Календарь</a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="index.html#documents">Положения</a>
+			</li>
+			<!-- временно не действителен
+			<li class="menu__item">
+				<a class="menu__link" href="#certification">Аттестация судей</a>
+			</li>
+		-->
+			<li class="menu__item">
+				<a class="menu__link" href="#registration">Регистрация</a>
+			</li>
+		</ul>
+		<img class="header__image header__image_svg" alt="BJJ-logo" src="stuffs/bjj-logo.svg">
+		<!--[if IE 8]>
+		<img class="header__image" alt="BJJ-logo" src="stuffs/bjj-logo.png">
+		<script>$('.header__image_svg').css('display', 'none');</script>
+		<![endif]-->
+	</header>
+	<section class='belt-background'>
+		<div class="wrapper">
+			<nav class="hamburger">
+				<div class="hamburger-icon"></div>
+				<ul class="hamburger__menu">
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="index.html">Главная</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="news.html">Новости</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="index.html#infoDoc">Информация</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="index.html#calendar">Календарь</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="index.html#documents">Положения</a>
+					</li>
+					<!-- временно не действителен
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#certification">Аттестация судей</a>
+					</li>
+				-->
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#feedback">Обратная связь</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="belts__wrap">
+		    <div class="belt_container belts_gray">
+		      <span class="belt__title belt__title_mistake-with-text-align">Серые пояса</span>
+		    </div>
+		    <table class="belts__table table_gray">
+		      <tr>
+		        <th>№</th>
+		        <th>ФИО</th>
+		        <th>NAME</th>
+		        <th>Возраст</th>
+		        <th>Дата аттестации</th>
+		      </tr>
+		      <tr>
+		        <td>GR 0001</td>
+		        <td>БОБРОВ ГЛЕБ ВИКТРОВИЧ </td>
+		        <td>BOBROV GLEB</td>
+		        <td>6</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>GR 0002</td>
+		        <td>ЗИАТДИНОВ ТАМЕРЛАН</td>
+		        <td>ZIATDINOV TAMERLAN</td>
+		        <td>6</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		    </table>
+		    <div class="belt_container belts_orange">
+		      <span class="belt__title">Оранжевые пояса</span>
+		    </div>
+		    <table class="belts__table table_orange">
+		      <tr>
+		        <th>№</th>
+		        <th>ФИО</th>
+		        <th>NAME</th>
+		        <th>Возраст</th>
+		        <th>Дата аттестации</th>
+		      </tr>
+		      <tr>
+		        <td>OR 0001</td>
+		        <td>ХАДИСОВ ИБРАГИМ </td>
+		        <td>KHADISOV IBRAGIM</td>
+		        <td>10</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>0R 0002</td>
+		        <td>МАГОМЕДОВ ИСМАИЛ</td>
+		        <td>MAGOMEDOV ISMAIL</td>
+		        <td>9</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>0R 0003</td>
+		        <td>АРСЛАНАЛИЕВ СИРАЖУТДИН </td>
+		        <td>ARSLANALIEV SIRAZHUTDIN</td>
+		        <td>9</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>0R 0004</td>
+		        <td>МУСАЛАЕВ РАМАЗАН</td>
+		        <td>MUSALAEV RAMAZAN</td>
+		        <td>10</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>0R 0005</td>
+		        <td>СОСЛАДИНОВ КУРБАН</td>
+		        <td>SOSLADINOV KURBAN</td>
+		        <td>10</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>0R 0006</td>
+		        <td>ДУЖАК МАКСИМ КОНСТАНТИНОВИЧ</td>
+		        <td>DUZHAK MAKSIM</td>
+		        <td>10</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>0R 0007</td>
+		        <td>ИВАНОВСКИЙ НИКИТА АЛЕКСАНДРОВИЧ </td>
+		        <td>IVANOVSKIY NIKITA</td>
+		        <td>13</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		    </table>
+		    <div class="belt_container belts_green">
+		      <span class="belt__title">Зеленые пояса</span>
+		    </div>
+		    <table class="belts__table table_green">
+		      <tr>
+		        <th>№</th>
+		        <th>ФИО</th>
+		        <th>NAME</th>
+		        <th>Возраст</th>
+		        <th>Дата аттестации</th>
+		      </tr>
+		      <tr>
+		        <td>GRE 0001</td>
+		        <td>ВЕЛИДЖАНОВ МУХАММАД</td>
+		        <td>VELIDZHANOV MUKHAMMAD </td>
+		        <td>12</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>GRE 0002</td>
+		        <td>ВЕЛИДЖАНОВ ЭЛЬДАР</td>
+		        <td>VELIDZHANOV ELDAR</td>
+		        <td>14</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>GRE 0003</td>
+		        <td>ГЮЛЬМАГОМЕДОВ ИСМАИЛ</td>
+		        <td>GYULMAGOMEDOV ISMAIL</td>
+		        <td>13</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>GRE 0004</td>
+		        <td>МУРАДХАНОВ ЮНУС</td>
+		        <td>MURADHANOV YUNUS</td>
+		        <td>11</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>GRE 0005</td>
+		        <td>АМИРОВ ТИМУР</td>
+		        <td>AMIROV TIMUR</td>
+		        <td>15</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>GRE 0006</td>
+		        <td>СУЛТАНОВ НАЖМУТДИН</td>
+		        <td>SULTANOV NAZHMUTDIN</td>
+		        <td>11</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>GRE 0007</td>
+		        <td>ГАСАНОВ МУСЛИМ</td>
+		        <td>GASANOV MUSLIM</td>
+		        <td>14</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>GRE 0008</td>
+		        <td>ДИХИЛОВ ДАВУД</td>
+		        <td>DIKHILOV DAVUD</td>
+		        <td>12</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>GRE 0009</td>
+		        <td>АБДУЛЛАЕВ АКБАР</td>
+		        <td>ABDULLAEV AKBAR</td>
+		        <td>12</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>GRE 00010</td>
+		        <td>БУКАРОВ РАМАЗАН</td>
+		        <td>BUKAROV RAMAZAN</td>
+		        <td>16</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>GRE 00011</td>
+		        <td>НУРАХМЕДОВ КУРБАН</td>
+		        <td>NURAKHMEDOV KURBAN</td>
+		        <td>16</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>GRE 00012</td>
+		        <td>ДЖАБРАИЛОВ МАГОМЕД</td>
+		        <td>DZHABRAILOV MAGOMED </td>
+		        <td>18</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>GRE 00013</td>
+		        <td>АГАМЕРЗОЕВ ФЕЙЗУЛЛАХ</td>
+		        <td>AGAMERZOEV FEIZULLAKH</td>
+		        <td>17</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		    </table>
+		    <div class="belt_container belts_blue">
+		      <span class="belt__title">Синие пояса</span>
+		    </div>
+		    <table class="belts__table table_blue">
+		      <tr>
+		        <th>№</th>
+		        <th>ФИО</th>
+		        <th>NAME</th>
+		        <th>Возраст</th>
+		        <th>Дата аттестации</th>
+		      </tr>
+		      <tr>
+		        <td>BL 0001</td>
+		        <td>ЛЯМЕТОВ ЭДГАР</td>
+		        <td>LYAMETOV EDGAR</td>
+		        <td>16</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>BL 0002</td>
+		        <td>АЙВАЗОВ САДИР</td>
+		        <td>AYVAZOV SADIR</td>
+		        <td>40</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>BL 0003</td>
+		        <td>БОРУХОВИЧ АЛЕКСЕЙ ЛЕОНИДОВИЧ </td>
+		        <td>BORUKHOVICH ALEKSEY</td>
+		        <td>37</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		      <tr>
+		        <td>BL 0006</td>
+		        <td>ЭКБЕРОВ ЭЙНАР КАВКАЗОВИЧ</td>
+		        <td>EKBEROV EINAR</td>
+		        <td>31</td>
+		        <td>11.07.2019</td>
+		      </tr>
+		    </table>
+		  </div>
+		</div>
+	</section>
+	<footer class="footer clearfix">
+		<address class="contacts">
+			<h2 class="contacts__part contacts__text">Контакты:</h2>
+			<div class="contacts__part contacts__phone">
+				+ 7 495 789 15 00
+			</div>
+			<div class="contacts__part contacts__mail">
+				bjjrf@mail.ru
+			</div>
+			<div class="contacts__part contacts__vk">
+				<a href="https://vk.com/bjj_russian_federation">Федерация BJJ России</a>
+			</div>
+		</address>
+		<div class="feedback">
+			<h2 class="feedback__title">Обратная связь</h2>
+			<form method="post">
+				<div class="form__block">
+					<div class="form__part">
+						Ваше имя:
+					</div>
+					<input id="id" placeholder="Введите имя" type="text" value="">
+					<div class="form__part">
+						Электронная почта:
+					</div>
+					<input id="email" placeholder="Введите почту" type="text">
+				</div>
+				<div class="form__block">
+					<div class="form__part">
+						Ваш вопрос:
+					</div>
+					<textarea cols="30" id="message" rows="6"></textarea>
+				</div>
+				<input type="submit" value="Отправить">
+			</form>
+		</div>
+	</footer>
+<script src="script/script.js"></script>
+</body>
+</html>

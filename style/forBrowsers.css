@@ -1,0 +1,160 @@
+/*  for Opera >= 9.5  */
+
+_:-o-prefocus, body:last-child .menu__item {
+	display: inline-block;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+_:-o-prefocus, body:last-child .header__BJJ-logo {
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+
+_:-o-prefocus, body:last-child .contacts {
+	float: none;
+}
+
+_:-o-prefocus, body:last-child .feedback {
+position: relative;
+left: 50%;
+top: -320%;
+}
+
+_:-o-prefocus, body:last-child input[type="text"]{
+	width: 40%;
+}
+
+_:-o-prefocus, body:last-child textarea{
+	width: 40%;
+}
+
+@media screen and (max-width:1235px) {
+	_:-o-prefocus, body:last-child .menu__item {
+		display: inline-block;
+		padding-left: 0.4%;
+		padding-right: 0.4%;
+	}
+}
+
+@media screen and (max-width:1015px) {
+	_:-o-prefocus, body:last-child form{
+		width: 100%;
+	}
+  _:-o-prefocus, body:last-child input[type="text"]{
+    width: 40%;
+  }
+  _:-o-prefocus, body:last-child textarea{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:580px) {
+  _:-o-prefocus, body:last-child .feedback {
+  top: 0;
+  left: 0;
+  }
+}
+
+/*  for Safari >= 7  */
+
+@media \\0 screen {
+  .menu__item {
+  }
+  .header__BJJ-logo {
+  }
+}
+
+/* 6>= for Safari >= 5.1  */
+
+_::-moz-svg-foreign-content, :root .menu{
+  width: 100%;
+}
+
+_::-moz-svg-foreign-content, :root .menu__item {
+  display: inline-block;
+}
+
+_::-moz-svg-foreign-content, :root .header__BJJ-logo{
+  display: inline-block;
+  position: absolute;
+  top: 35px;
+  right: 5%;
+}
+
+_::-moz-svg-foreign-content, :root form {
+	width: 55%;
+}
+
+_::-moz-svg-foreign-content, :root input[type="text"]{
+	width: 80%;
+}
+
+_::-moz-svg-foreign-content, :root textarea{
+	width: 80%;
+}
+
+_::-moz-svg-foreign-content, :root input[type="submit"]{
+  position: relative;
+  top: 180px;
+  right: 595%;
+}
+
+@media screen and (max-width:1200px) {
+	_::-moz-svg-foreign-content, :root .menu__item a {
+		font-size: 20px;
+	}
+  _::-moz-svg-foreign-content, :root .header__BJJ-logo{
+    right: 0;
+  }
+}
+
+@media screen and (max-width:1085px) {
+  _::-moz-svg-foreign-content, :root .menu__item a {
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width:915px) {
+  _::-moz-svg-foreign-content, :root footer{
+
+  }
+  _::-moz-svg-foreign-content, :root .feedback{
+
+  }
+  _::-moz-svg-foreign-content, :root .contacts{
+    float: none;
+  }
+  _::-moz-svg-foreign-content, :root form{
+    display: block;
+  }
+  _::-moz-svg-foreign-content, :root input[type="submit"]{
+    top: 0;
+    right: 0;
+  }
+  _::-moz-svg-foreign-content, :root .contacts{
+    margin-left: 30%;
+  }
+  _::-moz-svg-foreign-content, :root .feedback{
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width:615px) {
+  _::-moz-svg-foreign-content, :root form {
+  	width: 80%;
+  }
+  _::-moz-svg-foreign-content, :root .contacts{
+    margin-left: 25%;
+  }
+  _::-moz-svg-foreign-content, :root .feedback{
+    margin-left: 25%;
+  }
+}
+
+/* ie <= 11  */
+
+header, section, footer, aside, nav, main, article, figure {
+  display: block;
+}

@@ -1,0 +1,164 @@
+/**
+			MAIN PAGE
+**/
+
+.button {
+	background-color: #2a223b;
+}
+
+.button:hover {
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+}
+
+.delimiter {
+	width: 100%;
+	border: 1px solid #321177;
+}
+
+.main-background{
+  background-image: url(../stuffs/background-image.jpg);
+  background-position: center center;
+}
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+  background: #264073;
+	background: hsl(220, 50%, 30%);
+}
+
+.menu__item {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=-0.1763269807084645, M21=0, M22=1, SizingMethod='auto expand')";
+}
+
+.news {
+	margin: 30px auto 0;
+	box-sizing: border-box;
+	padding: 10px 10%;
+	border: 20px solid #264073;
+}
+
+.news__title .title__link {
+  color: #2a416f;
+}
+
+.title {
+	color:#8091b3;
+}
+
+.title__link {
+	color:#8091b3;
+}
+
+.news__photo {
+	border: 2px solid #2a366f;
+}
+
+.news__text {
+	color: #2a416f;
+}
+
+.link a {
+	background-color: #2a223b;
+}
+
+.link a:hover {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+footer {
+  background: #264073;
+	background: hsl(220, 50%, 30%);
+  background-position: center center;
+  background-size: cover;
+}
+
+.feedback {
+	float: right;
+  margin-right: 10px;
+}
+
+form {
+	display: block;
+  width: 100%;
+}
+
+.form__block{
+  display: inline-block;
+}
+
+@media screen and (max-width:1035px) {
+  .form__block {
+  	display: block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  .contacts, .feedback {
+		float: none;
+		margin-left: 25%;
+	}
+}
+
+input[type="submit"] {
+  display: block;
+}
+
+/**
+			BELTS PAGE
+**/
+
+.belt-background {
+	background: url(../stuffs/preloader-belts-image.jpg);
+  background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.belts_gray {
+  background: #837c7c;
+	background: hsla(0, 3%, 50%, .95);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+}
+
+.belts_orange {
+  background: #dd8c3c;
+	background: hsla(30, 70%, 55%, .95);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+}
+
+.belts_green {
+  background: #2a6f2a;
+	background: hsla(120, 45%, 30%, .95);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+}
+
+.belts_blue {
+  background: #333399;
+	background: hsla(240, 50%, 40%, .95);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+}
+
+.table_gray {
+	background: #837c7c;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+}
+
+.table_orange {
+	background: #dd8c3c;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+}
+
+.table_green {
+	background: #2a6f2a;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+}
+
+.table_blue {
+	background: #333399;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+}
